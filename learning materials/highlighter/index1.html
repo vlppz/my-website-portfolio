@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/dark.min.css">
+    <title>Code highlighter</title>
+</head>
+<body style="background-color: #222;">
+    <textarea style="background-color: #222; color: white;" class="language-python" id="code"></textarea>
+    <br>
+    <button id="highlight">Highlight!</button>
+
+    <pre><code class="language-python" id="here">
+    </code></pre>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+    $("#highlight").click(function() {
+        $("#here").text($("#code").val())
+        hljs.highlightAll();
+    })
+    </script>
+</body>
+</html>

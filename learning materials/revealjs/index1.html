@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Основы HTML и немного CSS</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="icons/favicon.ico?" type="image/x-icon">
+
+		<link rel="stylesheet" href="../../node_modules/reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="../../node_modules/reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="../../node_modules/reveal.js/dist/theme/black.css" id="theme">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/atelier-estuary-light.min.css">
+	</head>
+
+	<body>
+		<style>
+			* {
+				font-family: Montserrat!important;
+			}
+		</style>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section data-background-gradient="linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)" data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h2>ОСНОВЫ HTML И НЕМНОГО CSS(DISPLAY)</h2>
+
+                    <img height="200px" src="../../img/html_logo.png">
+					<p>
+						Основные теги HTML и display
+					</p>
+				</section>
+
+                <section data-background-gradient="linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)" >
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<h2>ОСНОВНЫЕ ТЕГИ</h2>
+
+						<img height="250px" src="../../img/html_logo.png">
+						<p>
+							Поговорим про основные теги HTML
+						</p>
+					</section>
+
+					<section>
+						<h2>ТЕГ DIV</h2>
+						<p>
+							<strong>Div</strong> - <span class="fragment">это контейнер, который используется для разделения контента на странице.</span>
+						</p>
+						<p>
+							<strong>Как его использовать:</strong> <pre class="fragment"><code style="text-align: center;" class="hljs"><div>ВНУТРЕННОСТЬ КОНТЕЙНЕРА</div></code></pre>
+						</p>
+					</section>
+
+					<section>
+						<h2>ТЕГ H</h2>
+						<p>
+							<strong>H</strong> - <span class="fragment">это заголовок, у которого есть уровни. Используется для выделения главных моментов на странице.</span>
+						</p>
+						<p>
+							<strong>Как его использовать:</strong> <pre class="fragment"><code style="text-align: center;" class="hljs"><h1>Заголовок 1-го уровня</h1></code></pre>
+						</p>
+					</section>
+
+					<section>
+						<h2>ТЕГ P</h2>
+						<p>
+							<strong>P</strong> - <span class="fragment">это обычный тект. Используется для написание основного текстового содержимого сайта.</span>
+						</p>
+						<p>
+							<strong>Как его использовать:</strong> <pre class="fragment"><code style="text-align: center;" class="language-html"><p>Текст...</p></code></pre>
+						</p>
+					</section>
+
+					<section>
+						<h2>ТЕГ A</h2>
+						<p>
+							<strong>А</strong> - <span class="fragment">это ссылка. Нередко используется для создания меню на странице, также ссылок. И, иногда, кнопок.</span>
+						</p>
+						<p>
+							<strong>Как его использовать:</strong> <pre class="fragment"><code style="text-align: center;" class="language-html"><a href="url">Ссылка</a></code></pre>
+						</p>
+					</section>
+
+					<section>
+						<h2>ТЕГ IMG</h2>
+						<p>
+							<strong>IMG</strong> - <span class="fragment">это картинка. Используется для добавления картинок на сайт.</span>
+						</p>
+						<p>
+							<strong>Как его использовать:</strong> <pre class="fragment"><code style="text-align: center;" class="language-html"><img src="path"></code></pre>
+						</p>
+					</section>
+				</section>
+
+				<section data-background-gradient="linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)" data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h2>Немного CSS</h2>
+
+					<img height="200px" src="../../img/logo-2582747_1920.png">
+
+					<p>Поговорим про свойство display</p>
+				</section>
+
+				<section data-background-gradient="linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)">
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<h2>DISPLAY</h2>
+
+						<img height="250px" src="../../img/logo-2582747_1920.png">
+
+						<p>Это свойтсво определяет тип отображения элемента: block, inline, inline-block</p>
+					</section>
+
+					<section>
+						<h2>BLOCK</h2>
+						<div style="width: 100%;">
+							<div style="margin: 0 auto; display:block; background-color: rgb(74, 181, 230); height:100px;width: 100px;"></div>
+							<div style="margin: 0 auto; display:block; background-color: rgb(96, 106, 243); height:100px;width: 100px;"></div>
+						</div>
+						<p><strong>Block</strong> - <span class="fragment">это когда, элементы, как блоки, идут верткально.</span></p>
+						<p><strong>Как использовать:</strong> <pre class="fragment"><code style="text-align: center;" class="language-css">display: block;</code></pre></p>
+					</section>
+
+					<section>
+						<h2>INLINE</h2>
+						<div style="width: 100%;">
+							<div style="margin: 0 auto; display:inline; background-color: rgb(74, 181, 230); height:100px;width: 100px;">Text</div>
+							<div style="margin: 0 auto; display:inline; background-color: rgb(96, 106, 243); height:100px;width: 100px;">Text</div>
+						</div>
+						<p><strong>Inline</strong> - <span class="fragment">это когда, элементы идут в строчку, и имеют размеры контента в них.</span></p>
+						<p><strong>Как использовать:</strong> <pre class="fragment"><code style="text-align: center;" class="language-css">display: inline;</code></pre></p>
+					</section>
+
+					<section>
+						<h2>INLINE-BLOCK</h2>
+						<div style="width: 100%;">
+							<div style="margin: 0 auto; display:inline-block; background-color: rgb(74, 181, 230); height:100px;width: 100px;"></div>
+							<div style="margin: 0 auto; display:inline-block; background-color: rgb(96, 106, 243); height:100px;width: 100px;"></div>
+						</div>
+						<p><strong>Inline-block </strong>- <span class="fragment">это когда, элементы идут в строчку, но они как блоки(имеют заданные размеры).</span></p>
+						<p><strong>Как использовать:</strong> <pre class="fragment"><code style="text-align: center;" class="language-css">display: inline-block;</code></pre></p>
+					</section>
+				</section>
+
+				<section data-background-gradient="linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)">
+					<h2>Спасибо за внимание!</h2>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="../../node_modules/reveal.js/dist/reveal.js"></script>
+		<script src="../../node_modules/reveal.js/plugin/zoom/zoom.js"></script>
+		<script src="../../node_modules/reveal.js/plugin/notes/notes.js"></script>
+		<script src="../../node_modules/reveal.js/plugin/search/search.js"></script>
+		<script src="../../node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="../../node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>

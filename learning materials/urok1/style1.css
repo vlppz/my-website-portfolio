@@ -1,0 +1,11 @@
+div {
+    border: 4px solid rgb(0, 192, 77);
+    width: fit-content;
+    font-size: 32px;
+    font-family: Helvetica, sans-serif;
+    margin: 100px;
+}
+
+.menu {
+    display: inline-block;
+}
