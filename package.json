@@ -3,6 +3,7 @@
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "connect": "^3.7.0",
+    "gh-pages": "^4.0.0",
     "jquery": "^3.6.1",
     "reveal.js": "^4.4.0",
     "serve-static": "^1.15.0"
