@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="container1">
+            <p class="result">0</p>
+
+            <button class="eq">=</button>
+            
+            <button class="normalb">AC</button>
+
+            <button class="normalb1">+</button>
+
+            <button class="normalb2">-</button>
+            
+            <button class="normalb3">÷</button>
+
+            <button class="normalb4">×</button>
+
+            <button class="normalb5">0</button>
+
+
+            <button class="normalb6">1</button>
+
+            <button class="normalb7">2</button>
+
+            <button class="normalb8">3</button>
+
+
+            <button class="normalb9">4</button>
+
+            <button class="normalb10">5</button>
+
+            <button class="normalb11">6</button>
+
+
+            <button class="normalb9">7</button>
+
+            <button class="normalb10">8</button>
+
+            <button class="normalb11">9</button>
+        </div>
+    </div>
+
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script>
+        $("button").click(function () {
+            
+
+            if ($(this).text() == "=") {
+                $(".result").text(eval($(".result").text().replace("×", "*").replace("÷", "/")))
+            } else if ($(this).text() == "AC") {
+                $(".result").text("0");
+            } else if ($(".result").text() == "0") {
+                $(".result").text("")
+                $(".result").text($(".result").text()+$(this).text());
+            } else {
+                $(".result").text($(".result").text()+$(this).text());
+            }
+
+            console.log(1);
+        });
+    </script>
+
+</body>
+</html>

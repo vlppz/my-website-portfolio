@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: url("./cagatay-orhan-PYh4QCX_fmE-unsplash.jpg") center/cover no-repeat;
+
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    width: 445px;
+    height: 635px;
+
+    background: rgba(255, 255, 255, 0.51);
+    backdrop-filter: blur(23.5px);  
+    border-radius: 43px;
+}
+
+.result {
+
+    width: 390px;
+
+    margin-top: 84px;
+    text-align: end;
+    font-size: 50px;
+}
+
+.eq {
+    display: flex;
+    
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: white;
+
+    border: none;
+
+    background: #6B8659;
+    width: 118px;
+    height: 211px;
+
+    margin-left: 327px;
+    margin-top: 280px;
+
+    padding-top: 100px;
+
+    border-bottom-right-radius: 43px;
+}
+
+.normalb {
+    display: flex;
+
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: #FFC8C8;
+
+    border: none;
+
+    width: 118px;
+    height: 111px;
+
+    margin-left: 327px;
+    margin-top: -214px;
+}
+
+.normalb1 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 118px;
+    height: 118px;
+
+    margin-left: 327px;
+    margin-top: -329px;
+}
+
+.normalb2 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 118px;
+    height: 118px;
+
+    margin-left: 327px;
+    margin-top: -236px;
+}
+
+.normalb3 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 216px;
+    margin-top: 217px;
+}
+
+.normalb4 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 105px;
+    margin-top: -111px;
+}
+
+.normalb5 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 0px;
+    margin-top: -111px;
+
+    border-bottom-left-radius: 43px;
+}
+
+
+
+.normalb6 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 0px;
+    margin-top: -210px;
+}
+
+.normalb7 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 105px;
+    margin-top: -111px;
+}
+
+.normalb8 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 216px;
+    margin-top: -111px;
+}
+
+
+
+.normalb9 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 0px;
+    margin-top: -222px;
+}
+
+.normalb10 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 105px;
+    margin-top: -111px;
+}
+
+.normalb11 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: black;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+    width: 111px;
+    height: 111px;
+
+    margin-left: 216px;
+    margin-top: -111px;
+}
+
+/* 546F42 */
