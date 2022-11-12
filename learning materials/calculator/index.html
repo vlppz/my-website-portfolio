@@ -54,8 +54,6 @@
 
     <script>
         $("button").click(function () {
-            
-
             if ($(this).text() == "=") {
                 $(".result").text(eval($(".result").text().replace("×", "*").replace("÷", "/")))
             } else if ($(this).text() == "AC") {
