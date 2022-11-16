@@ -1,0 +1,92 @@
+.osn {
+    height: 100%;
+}
+
+body {
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.s1 {
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+.online {
+    font-size: 16px;
+    color:green;
+    margin-left: 10px;
+}
+
+.circle {
+    clip-path: circle();
+
+    margin-right: 10px;
+}
+
+.msg {
+    margin-top: 10px;
+
+    background-color: #0d6efd;
+    color:white;
+    padding: 15px;
+
+    margin-bottom: 10px;
+
+    width:fit-content;
+
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+}
+
+.msg2 {
+    margin-top: 10px;
+    margin-left:100vh;
+    
+
+    background-color: #636363;
+    color:white;
+    padding: 15px;
+
+    margin-bottom: 10px;
+
+    width:fit-content;
+
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+
+.time {
+    margin-left: 10px;
+    top: 0px;
+
+    color: rgb(207, 207, 207);
+
+    font-size: 12px;
+}
+
+.time2 {
+    margin-left: 70px;
+    top: 0px;
+
+    color: rgb(207, 207, 207);
+
+    font-size: 12px;
+}
+
+.send {
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0); border: none;
+}
+
+.msgtype {
+    top: 90%;
+    position: absolute;
+    width: 75%;
+    
+    font-size: 16px;
+}
