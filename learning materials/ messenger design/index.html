@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="list-group list-group-flush border-bottom scrollarea" style="width: 20%;">  
+    <div class="list-group list-group-flush border-bottom scrollarea" style="width: 20%;">
         <a href="#vasya" class="vasya list-group-item list-group-item-action py-3 lh-tight">
             <div id="vasya"><img class="circle" src="./i-44.webp" width="40px">Вася
             </div>
@@ -28,14 +28,15 @@
     <div class="d-flex flex-column flex-shrink-0 p-3 s1" style="width: 80%; margin: 0; padding: 0!important;">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                
+
                 <a class="navbar-brand" href="#">
                     <img class="circle ch" src="./i-45.webp" width="40px">
                     <span class="name">Игорь</span> <span class="online">online</span></a>
             </div>
         </nav>
         <div style="padding-left: 10px;">
-            <div class="msg"><span class="msgc1">Игорь, давай в шахматы!</span><br /><span class="msgc1en">Я черными.</span><span class="time2 timech1">14:55</span></div>
+            <div class="msg"><span class="msgc1">Игорь, давай в шахматы!</span><br /><span class="msgc1en">Я
+                    черными.</span><span class="time2 timech1">14:55</span></div>
             <div class="msg2"><span class="msgc2">Поехали. e2-e4.</span><span class="time timech2">14:58</span></div>
             <div class="msg"><span class="msgc3">e7-e5</span><span class="time timech3">14:59</span></div>
             <div class="msg2"><span class="msgc4">Nc3</span><span class="time timech4">15:00</span></div>
@@ -52,11 +53,11 @@
     <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
 
     <script>
-        $(".vasya").click(function() {
-            $("#vasya").css({"font-weight": "bold"});
-            
-            $("#igor").css({"font-weight": "normal"});
-            $("#oleg").css({"font-weight": "normal"});
+        $(".vasya").click(function () {
+            $("#vasya").css({ "font-weight": "bold" });
+
+            $("#igor").css({ "font-weight": "normal" });
+            $("#oleg").css({ "font-weight": "normal" });
             $(".active").removeClass("active");
 
             $(this).toggleClass("active");
@@ -76,11 +77,11 @@
             $(".timech4").text("12:42");
         });
 
-        $(".igor").click(function() {
-            $("#igor").css({"font-weight": "bold"})
-            
-            $("#vasya").css({"font-weight": "normal"})
-            $("#oleg").css({"font-weight": "normal"})
+        $(".igor").click(function () {
+            $("#igor").css({ "font-weight": "bold" });
+
+            $("#vasya").css({ "font-weight": "normal" });
+            $("#oleg").css({ "font-weight": "normal" });
             $(".active").removeClass("active");
 
             $(this).toggleClass("active");
@@ -100,11 +101,11 @@
             $(".timech4").text("15:00");
         })
 
-        $(".oleg").click(function() {
-            $("#oleg").css({"font-weight": "bold"})
-            
-            $("#vasya").css({"font-weight": "normal"})
-            $("#igor").css({"font-weight": "normal"})
+        $(".oleg").click(function () {
+            $("#oleg").css({ "font-weight": "bold" });
+
+            $("#vasya").css({ "font-weight": "normal" });
+            $("#igor").css({ "font-weight": "normal" });
             $(".active").removeClass("active");
 
             $(this).toggleClass("active");
