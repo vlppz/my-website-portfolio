@@ -1,8 +1,8 @@
 var connect = require("connect")
 var serveStatic = require("serve-static")
 
-var host = "127.0.0.1"
-var port = 8080
+var host = "0.0.0.0"
+var port = 7003
 
 connect().use(serveStatic(__dirname)).listen(port, host)
 
