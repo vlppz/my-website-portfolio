@@ -1,1 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");body{background-color:#222222 !important}.nav-menu{display:flex;vertical-align:top;flex-direction:row-reverse;justify-content:space-between;align-items:center;margin-top:7px;margin-left:7px;margin-right:7px;padding-top:15px;background-color:#464646;border-radius:10px}.nav-menu__list{display:flex;flex-direction:row}.nav-menu__list-item{list-style:none;margin-right:29px;font-size:18px}.nav-menu__link{text-decoration:none;font-family:'Montserrat', sans-serif;font-weight:400;color:white}.nav-menu__link:hover{color:white}.container{margin-left:165px}.main-section__content{transition:1s;max-height:800px}.main-section__title{position:absolute;top:165px;left:247px;color:white;font-family:'Montserrat', sans-serif;font-weight:600;font-size:91px;width:565px}.main-section__img{transition:1s;transform:scale(1) !important;position:absolute;top:0px;right:0px;z-index:-1}.main-section__about{display:flex;flex-direction:row;position:absolute;top:482px;left:255px}.main-section__titletxt{font-family:'Montserrat', sans-serif;font-weight:600;font-size:20px;width:146px;color:white}.main-section__txt{font-family:'Montserrat', sans-serif;font-weight:400;font-size:20px;width:332px;color:white}.main-section__icons{position:absolute;left:260px;top:673px}.icon{margin-right:17px}.arrows{margin-right:78px}.container{display:inline-block}.title{font-size:45px}.white{color:white}.white:hover{color:white}.active{transition:1s;transform:scale(1.1)}.active__link{font-weight:600}.transtxt{transition:1s}.transarrow{transition:1s;transform:scale(1) !important}
+body {
+    background: #1b2631;
+  }
+  .double-border-button {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 5px 30px;
+    position: relative;
+    border: 1px solid #e34f26;
+    color: #e34f26;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+  }
+  .double-border-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+  }
+  .double-border-button:hover:after {
+    border-color: #e34f26;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+  }
