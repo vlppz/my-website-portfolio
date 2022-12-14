@@ -27,7 +27,8 @@ html {
     height: 635px;
 
     background: rgba(255, 255, 255, 0.51);
-    backdrop-filter: blur(23.5px);  
+    backdrop-filter: blur(23.5px);
+    -webkit-backdrop-filter: blur(23.5px);
     border-radius: 43px;
 }
 
